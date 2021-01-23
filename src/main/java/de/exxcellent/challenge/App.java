@@ -8,7 +8,8 @@ import java.net.URL;
  * The entry class for your solution. This class is only aimed as starting point and not intended as baseline for your software
  * design. Read: create your own classes and packages as appropriate.
  *
- * @author Benjamin Schmid <benjamin.schmid@exxcellent.de>
+ * @author Benjamin Schmid <benjamin.schmid@exxcellent.de> (Challenge Author)
+ * @author Kajetan Schuler <kajetan.schuler@gmail.com> (Challenge Solution)
  */
 public final class App {
 
@@ -20,6 +21,10 @@ public final class App {
     private static final String[] FOOTBALL_COLUMN_LABELS =
             { "Goals", "Goals Allowed", "Team" };
 
+    /**
+     * This is the main entry method of your program.
+     * @param args The CLI arguments passed
+     */
     public static void main(String... args) {
         Table weatherData = null;
         Table footballData = null;
