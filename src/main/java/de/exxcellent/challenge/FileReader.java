@@ -14,6 +14,7 @@ import java.net.URL;
  */
 public interface FileReader  {
     /**
+     * Reads the specified .csv file and returns Table object
      * @param filePath URL to the file that should be read
      * @return Returns a Table Object for further processing
      * @throws IOException Throws Excpetion if file cannot be read or accessed
